@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  transition: opacity 0.3s;
+  transition: opacity .3s, color .3s;
 }
 
 a:active {
@@ -127,6 +127,10 @@ section {
   .episode-link img {
     width: auto;
     height: 100px;
+  }
+
+  a:hover {
+      color: #888;
   }
 }
 
